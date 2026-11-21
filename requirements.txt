@@ -1,0 +1,3 @@
+# Scientific experiment dependencies captured from the local environment.
+# The evidence assistant needs no pip dependencies.
+-r requirements/experiments.txt

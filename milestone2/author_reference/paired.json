@@ -1,0 +1,11 @@
+{
+  "contrast": "frozen concat focal ensemble minus author reference",
+  "metric": "average precision",
+  "difference": -0.012300757093668374,
+  "percentile95": [
+    -0.1407253415768411,
+    0.11011361606261628
+  ],
+  "valid_draws": 1997,
+  "author_holdout_balanced_accuracy_default": 0.6204081632653061
+}

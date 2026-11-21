@@ -1,0 +1,63 @@
+{
+  "seed": 42,
+  "architectures": [
+    [
+      50
+    ],
+    [
+      100
+    ],
+    [
+      50,
+      50
+    ],
+    [
+      50,
+      100
+    ],
+    [
+      100,
+      50
+    ],
+    [
+      100,
+      100
+    ]
+  ],
+  "embedding_config": {
+    "model": "facebook/wav2vec2-large-xlsr-53",
+    "layer": "final convolution before feature projection",
+    "pooling": "time mean",
+    "dimension": 512,
+    "sample_rate": 16000,
+    "normalize": true,
+    "vowel": "a_n"
+  },
+  "split_sha256": "7404ad74654439cc01d476b4b27c49aef043c10f06d471f8c3756465a8cb0d57",
+  "selection": "mean fold AUROC; balanced accuracy breaks ties",
+  "threshold": 0.5,
+  "metric_unit": "session",
+  "speaker_weights_used": false,
+  "inputs": "audio embeddings only",
+  "training": {
+    "scaler": "StandardScaler fit on training fold",
+    "smote_sampling_strategy": "auto",
+    "smote_k_neighbors": "min(5, training minority count - 1)",
+    "activation": "relu",
+    "solver": "adam",
+    "alpha": 0.0001,
+    "learning_rate_init": 0.001,
+    "batch_size": 64,
+    "max_iter": 500,
+    "early_stopping": false,
+    "tol": 0.0001,
+    "n_iter_no_change": 20
+  },
+  "versions": {
+    "python": "3.12.0",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "sklearn": "1.9.1",
+    "imblearn": "0.14.2"
+  }
+}

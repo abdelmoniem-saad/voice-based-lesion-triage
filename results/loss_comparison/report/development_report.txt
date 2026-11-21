@@ -1,0 +1,28 @@
+DEVELOPMENT RESULTS
+Test set not evaluated.
+
+Primary summary: mean across folds after averaging seeds.
+Fold SD is not a confidence interval.
+Metrics count sessions; speakers are grouped across folds.
+
+              auroc_mean  auroc_std  average_precision_mean  average_precision_std  balanced_accuracy_mean  balanced_accuracy_std  sensitivity_mean  sensitivity_std  specificity_mean  specificity_std
+method                                                                                                                                                                                                 
+smote           0.629693   0.053108                0.109079               0.073833                0.527433               0.055105          0.073810         0.111168          0.981056         0.004832
+weighted_bce    0.667504   0.072027                0.110841               0.066186                0.522399               0.053903          0.064286         0.108327          0.980512         0.007277
+focal           0.674809   0.066934                0.115701               0.068809                0.519422               0.053287          0.059524         0.108458          0.979320         0.007178
+
+Fold counts:
+          sessions  positive_sessions  speakers
+dev_fold                                       
+0              243                  5       158
+1              204                  4       159
+2              198                  4       158
+3              213                  4       158
+4              208                 14       159
+
+Interpretation:
+- All methods have low sensitivity at threshold 0.5.
+- Focal versus weighted BCE is a small development difference.
+- PyTorch SMOTE differs from the sklearn training procedure.
+- Architecture selection used these development folds;
+  these results are not an independent final evaluation.

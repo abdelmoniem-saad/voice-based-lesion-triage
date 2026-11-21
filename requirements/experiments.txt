@@ -1,0 +1,11 @@
+# Observed installed direct dependencies during repository preparation.
+# Historical run_config/protocol JSON remains authoritative for earlier runs.
+numpy==2.4.6
+pandas==2.3.3
+scipy==1.18.0
+scikit-learn==1.9.1
+imbalanced-learn==0.14.2
+torch==2.14.1
+transformers==5.20.1
+matplotlib==3.10.9
+threadpoolctl==3.7.0

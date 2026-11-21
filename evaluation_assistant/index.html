@@ -1,0 +1,37 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Evaluation desk · SVD</title>
+<style>
+:root{color-scheme:light;--ink:#183c39;--line:#cbd8ce;--paper:#f7f7ef;--green:#17604e}*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 system-ui,sans-serif}header{border-bottom:1px solid var(--line);background:#173e38;color:white;padding:16px max(5vw,20px);display:flex;justify-content:space-between;gap:1em}header span{color:#c9dfd0}
+main{max-width:1140px;margin:auto;padding:44px 24px;display:grid;grid-template-columns:235px 1fr;gap:44px}aside{border-right:1px solid var(--line);padding-right:20px}small,label{font-weight:650}.label{color:#476859;font-size:.77rem;letter-spacing:.09em;text-transform:uppercase}h1,h2,h3,p{margin:0 0 12px}h1{font:clamp(2rem,4.7vw,3.6rem)/1.06 Georgia,serif;margin:10px 0 16px}h2{font:1.5rem Georgia,serif}aside h2{margin:10px 0}aside button{margin:4px 0;width:100%;text-align:left}
+button{border:1px solid #98ad9f;background:transparent;color:var(--ink);border-radius:8px;padding:10px 14px;font:inherit;cursor:pointer}button:hover{background:#e4eee3}button:disabled{opacity:.5;cursor:wait}.primary{background:var(--green);color:white;border-color:var(--green)}.primary:hover{background:#174b40}
+textarea{display:block;width:100%;min-height:82px;padding:12px;border:1px solid #8fa99a;border-radius:8px;margin:6px 0 10px;font:inherit;color:var(--ink);resize:vertical}.box,article{border:1px solid var(--line);border-radius:12px;background:#fffef9;padding:20px;margin:18px 0}.toolbar{display:flex;align-items:center;gap:12px;flex-wrap:wrap}.muted{color:#52685e}.claim{padding:14px 0;border-top:1px solid var(--line)}.claim h3{font-size:1.13rem}.tag{font-size:.76rem;color:#305e51;font-weight:700}.src{display:block;color:var(--green);overflow-wrap:anywhere}.scope{color:#cfe5d8}.error{color:#873e28}summary{cursor:pointer}details{font-size:.86rem;margin-top:8px}.break{margin-top:28px}button:focus-visible,a:focus-visible,textarea:focus-visible{outline:3px solid #ad6f20}
+@media(max-width:750px){main{display:flex;flex-direction:column-reverse;gap:12px;padding:24px 16px}aside{border:0}header span{display:none}}
+</style>
+<header><strong>SVD / Evaluation desk</strong><span>Research review · frozen experiments</span></header>
+<main><aside><div class="label">Evidence collection</div><h2>Milestone 2</h2><p class="muted">Compare the retrained reference with the three-vowel model on the same speakers.</p>
+<div class="break label">Guided review · no LLM</div><p class="muted">Open a prepared evidence view.</p>
+<button data-guide="reference">Reference comparison</button><button data-guide="fusion">Attention vs concatenation</button><button data-guide="threshold">Sensitivity target</button><button data-guide="demographics">Demographic controls</button>
+<div class="break label">Scope</div><p class="muted">Aggregate experiment results only. No audio, individual predictions, or clinical assessments.</p></aside>
+<section><div class="label">Research workspace / model evaluation</div><h1>Ask what the evidence supports.</h1><p class="muted">Review a claim, inspect the split it came from, and open the underlying results.</p>
+<form class="box" id="ask"><label for="q">Question for the local LLM</label><textarea id="q" maxlength="600" required placeholder="Did our frozen model improve enough to replace the authors’ reference?"></textarea><div class="toolbar"><button class="primary">Ask assistant</button><button type="button" id="clear">Clear history</button><small id="status" role="status"></small></div></form>
+<div id="answers" aria-live="polite"></div></section></main>
+<script>
+const $=s=>document.querySelector(s);let history=[];
+const element=(tag,text,cls)=>{const n=document.createElement(tag);if(text)n.textContent=text;if(cls)n.className=cls;return n};
+function render(r){
+ const a=element('article');a.append(element('div',r.mode+' · '+r.seconds+' s','label'),element('h2',r.question));
+ if(r.message)a.append(element('p',r.message));
+ for(const c of r.cards){const b=element('div',null,'claim');b.append(element('span',c.scope,'tag'),element('h3',c.title),element('p',c.body));
+  const d=element('details');d.append(element('summary','Evidence sources ('+c.sources.length+')'));for(const s of c.sources){const l=element('a',s.file+' · '+s.locator,'src');l.href='/source/'+encodeURIComponent(s.id);l.target='_blank';l.rel='noopener';d.append(l)}b.append(d);a.append(b)}
+ const trace=element('details');trace.append(element('summary','Tool trace'),element('code',r.trace.join(' → ')));a.append(trace);$('#answers').prepend(a);
+ history.push({question:r.question,tools:r.cards.map(c=>c.tool)});history=history.slice(-3);
+}
+async function ask(guide=null){let q=guide?'Guided evidence review':$('#q').value.trim();if(!q)return;
+ document.querySelectorAll('button').forEach(b=>b.disabled=true);$('#status').textContent=guide?'Reading saved results…':'Waiting for the local model…';
+ try{let res=await fetch('/ask',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question:q,history,guide})});
+ const r=await res.json();if(!res.ok)throw Error(r.error||'Request failed');render(r);$('#status').textContent='Review complete';if(!guide)$('#q').value=''}
+ catch(e){$('#status').textContent=e.message}finally{document.querySelectorAll('button').forEach(b=>b.disabled=false)}}
+$('#ask').onsubmit=e=>{e.preventDefault();ask()};document.querySelectorAll('[data-guide]').forEach(b=>b.onclick=()=>ask(b.dataset.guide));
+$('#clear').onclick=()=>{history=[];$('#answers').replaceChildren();$('#status').textContent='History cleared'};
+</script></html>

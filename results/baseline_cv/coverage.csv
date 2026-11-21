@@ -1,0 +1,5 @@
+split,label,planned_sessions,available_sessions
+dev,0,1050,1035
+dev,1,31,31
+test,0,246,245
+test,1,7,7

@@ -1,0 +1,44 @@
+{
+  "hidden_layer_sizes": [
+    50,
+    50
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "steps_per_fit": 1000,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "adam_weight_decay": 0.0001,
+  "focal_gamma": 2.0,
+  "class_weights": "N / (2 * class_count), training labels only",
+  "threshold": 0.5,
+  "metric_unit": "session",
+  "speaker_weights_used": false,
+  "split_sha256": "7404ad74654439cc01d476b4b27c49aef043c10f06d471f8c3756465a8cb0d57",
+  "embedding_config": {
+    "model": "facebook/wav2vec2-large-xlsr-53",
+    "layer": "final convolution before feature projection",
+    "pooling": "time mean",
+    "dimension": 512,
+    "sample_rate": 16000,
+    "normalize": true,
+    "vowel": "a_n"
+  },
+  "test_evaluated": false,
+  "smoke_test": false,
+  "versions": {
+    "torch": "2.14.1+cpu",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "params": {
+    "classifier__activation": "tanh",
+    "classifier__hidden_layer_sizes": [
+      100,
+      50
+    ],
+    "classifier__learning_rate": "adaptive",
+    "classifier__solver": "sgd"
+  },
+  "scores": [
+    0.8865546218487395,
+    0.5875,
+    0.49097938144329895,
+    0.6566985645933014,
+    0.7179675994108984
+  ],
+  "mean": 0.6679400334592477,
+  "warnings": []
+}

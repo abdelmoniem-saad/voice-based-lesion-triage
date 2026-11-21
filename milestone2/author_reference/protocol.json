@@ -1,0 +1,23 @@
+{
+  "source_commit": "7811f6d8cc8ac6dbe8535e9e2669febed4f51da4",
+  "source_hashes": {
+    "FeatureStates_SVD.csv": "0633a7ef29b2c7b8fcebbc8f9b49e3902628784200abadb28baea5b841fb04cc",
+    "TrainingUtils.py": "dcb602c1713dd07995dccbd8f634e97c78a918b0cf2cb4724607c7c5cd49e922",
+    "custom_preprocessing.py": "a5477132a4422106b3192b10d0b98279ac9a1083b5abae389ce6ad124ce108c8"
+  },
+  "split_hash": "7404ad74654439cc01d476b4b27c49aef043c10f06d471f8c3756465a8cb0d57",
+  "prediction_hash": "3ad48cc649421ca93ed4c6776222f345810dce39dbc921f649957d6551708afd",
+  "dev_ids_hash": "f2f60f5c7cb940b6f1a65ca51d02e3fb085fd77f439f6f014279895aaf1c4361",
+  "grid_size": 90,
+  "folds": 5,
+  "criterion": "balanced_accuracy",
+  "seed": 42,
+  "versions": {
+    "scikit-learn": "1.9.1",
+    "imbalanced-learn": "0.14.2",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3"
+  },
+  "runner_hash": "0efda1b93195cc2f91bffcf98421f9e56a12321f1147f52185b498673b2e12dd",
+  "stop": "Complete original grid once. No holdout-driven changes."
+}
