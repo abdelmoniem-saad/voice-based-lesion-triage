@@ -1,0 +1,1784 @@
+[
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        50
+      ],
+      "classifier__learning_rate": "constant",
+      "classifier__solver": "adam"
+    },
+    "scores": [
+      0.653781512605042,
+      0.55,
+      0.5425257731958764,
+      0.6901913875598087,
+      0.5276141384388807
+    ],
+    "mean": 0.5928225623599216,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        50
+      ],
+      "classifier__learning_rate": "constant",
+      "classifier__solver": "sgd"
+    },
+    "scores": [
+      0.8970588235294117,
+      0.595,
+      0.5850515463917525,
+      0.6327751196172249,
+      0.603460972017673
+    ],
+    "mean": 0.6626692923112125,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        50
+      ],
+      "classifier__learning_rate": "constant",
+      "classifier__solver": "lbfgs"
+    },
+    "scores": [
+      0.5747899159663865,
+      0.61,
+      0.6095360824742269,
+      0.6010765550239234,
+      0.5279823269513991
+    ],
+    "mean": 0.5846769760831872,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        50
+      ],
+      "classifier__learning_rate": "invscaling",
+      "classifier__solver": "adam"
+    },
+    "scores": [
+      0.653781512605042,
+      0.55,
+      0.5425257731958764,
+      0.6901913875598087,
+      0.5276141384388807
+    ],
+    "mean": 0.5928225623599216,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        50
+      ],
+      "classifier__learning_rate": "invscaling",
+      "classifier__solver": "sgd"
+    },
+    "scores": [
+      0.6848739495798319,
+      0.405,
+      0.5012886597938144,
+      0.5215311004784688,
+      0.4896907216494845
+    ],
+    "mean": 0.52047688630032,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        50
+      ],
+      "classifier__learning_rate": "invscaling",
+      "classifier__solver": "lbfgs"
+    },
+    "scores": [
+      0.5747899159663865,
+      0.61,
+      0.6095360824742269,
+      0.6010765550239234,
+      0.5279823269513991
+    ],
+    "mean": 0.5846769760831872,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        50
+      ],
+      "classifier__learning_rate": "adaptive",
+      "classifier__solver": "adam"
+    },
+    "scores": [
+      0.653781512605042,
+      0.55,
+      0.5425257731958764,
+      0.6901913875598087,
+      0.5276141384388807
+    ],
+    "mean": 0.5928225623599216,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        50
+      ],
+      "classifier__learning_rate": "adaptive",
+      "classifier__solver": "sgd"
+    },
+    "scores": [
+      0.9159663865546219,
+      0.595,
+      0.4884020618556701,
+      0.6471291866028708,
+      0.603460972017673
+    ],
+    "mean": 0.6499917214061672,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        50
+      ],
+      "classifier__learning_rate": "adaptive",
+      "classifier__solver": "lbfgs"
+    },
+    "scores": [
+      0.5747899159663865,
+      0.61,
+      0.6095360824742269,
+      0.6010765550239234,
+      0.5279823269513991
+    ],
+    "mean": 0.5846769760831872,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        100
+      ],
+      "classifier__learning_rate": "constant",
+      "classifier__solver": "adam"
+    },
+    "scores": [
+      0.7390756302521009,
+      0.565,
+      0.5579896907216495,
+      0.7021531100478469,
+      0.5173048600883653
+    ],
+    "mean": 0.6163046582219925,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        100
+      ],
+      "classifier__learning_rate": "constant",
+      "classifier__solver": "sgd"
+    },
+    "scores": [
+      0.8222689075630252,
+      0.5925,
+      0.49871134020618557,
+      0.6333732057416268,
+      0.6008836524300442
+    ],
+    "mean": 0.6295474211881763,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        100
+      ],
+      "classifier__learning_rate": "constant",
+      "classifier__solver": "lbfgs"
+    },
+    "scores": [
+      0.4831932773109244,
+      0.61,
+      0.4845360824742268,
+      0.6130382775119617,
+      0.5254050073637703
+    ],
+    "mean": 0.5432345289321766,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        100
+      ],
+      "classifier__learning_rate": "invscaling",
+      "classifier__solver": "adam"
+    },
+    "scores": [
+      0.7390756302521009,
+      0.565,
+      0.5579896907216495,
+      0.7021531100478469,
+      0.5173048600883653
+    ],
+    "mean": 0.6163046582219925,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        100
+      ],
+      "classifier__learning_rate": "invscaling",
+      "classifier__solver": "sgd"
+    },
+    "scores": [
+      0.6743697478991597,
+      0.515,
+      0.5038659793814433,
+      0.7200956937799043,
+      0.4826951399116347
+    ],
+    "mean": 0.5792053121944284,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        100
+      ],
+      "classifier__learning_rate": "invscaling",
+      "classifier__solver": "lbfgs"
+    },
+    "scores": [
+      0.4831932773109244,
+      0.61,
+      0.4845360824742268,
+      0.6130382775119617,
+      0.5254050073637703
+    ],
+    "mean": 0.5432345289321766,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        100
+      ],
+      "classifier__learning_rate": "adaptive",
+      "classifier__solver": "adam"
+    },
+    "scores": [
+      0.7390756302521009,
+      0.565,
+      0.5579896907216495,
+      0.7021531100478469,
+      0.5173048600883653
+    ],
+    "mean": 0.6163046582219925,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        100
+      ],
+      "classifier__learning_rate": "adaptive",
+      "classifier__solver": "sgd"
+    },
+    "scores": [
+      0.8222689075630252,
+      0.5925,
+      0.5141752577319587,
+      0.5873205741626795,
+      0.6189248895434463
+    ],
+    "mean": 0.627037925800222,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        100
+      ],
+      "classifier__learning_rate": "adaptive",
+      "classifier__solver": "lbfgs"
+    },
+    "scores": [
+      0.4831932773109244,
+      0.61,
+      0.4845360824742268,
+      0.6130382775119617,
+      0.5254050073637703
+    ],
+    "mean": 0.5432345289321766,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        100,
+        50
+      ],
+      "classifier__learning_rate": "constant",
+      "classifier__solver": "adam"
+    },
+    "scores": [
+      0.7558823529411764,
+      0.5875,
+      0.5940721649484536,
+      0.5915071770334928,
+      0.49226804123711343
+    ],
+    "mean": 0.6042459472320473,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        100,
+        50
+      ],
+      "classifier__learning_rate": "constant",
+      "classifier__solver": "sgd"
+    },
+    "scores": [
+      0.7390756302521009,
+      0.5175000000000001,
+      0.5876288659793815,
+      0.6519138755980861,
+      0.5975699558173785
+    ],
+    "mean": 0.6187376655293895,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        100,
+        50
+      ],
+      "classifier__learning_rate": "constant",
+      "classifier__solver": "lbfgs"
+    },
+    "scores": [
+      0.47689075630252103,
+      0.605,
+      0.4948453608247423,
+      0.6106459330143541,
+      0.5254050073637703
+    ],
+    "mean": 0.5425574115010775,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        100,
+        50
+      ],
+      "classifier__learning_rate": "invscaling",
+      "classifier__solver": "adam"
+    },
+    "scores": [
+      0.7558823529411764,
+      0.5875,
+      0.5940721649484536,
+      0.5915071770334928,
+      0.49226804123711343
+    ],
+    "mean": 0.6042459472320473,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        100,
+        50
+      ],
+      "classifier__learning_rate": "invscaling",
+      "classifier__solver": "sgd"
+    },
+    "scores": [
+      0.5130252100840336,
+      0.475,
+      0.586340206185567,
+      0.47906698564593303,
+      0.6413843888070692
+    ],
+    "mean": 0.5389633581445206,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        100,
+        50
+      ],
+      "classifier__learning_rate": "invscaling",
+      "classifier__solver": "lbfgs"
+    },
+    "scores": [
+      0.47689075630252103,
+      0.605,
+      0.4948453608247423,
+      0.6106459330143541,
+      0.5254050073637703
+    ],
+    "mean": 0.5425574115010775,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        100,
+        50
+      ],
+      "classifier__learning_rate": "adaptive",
+      "classifier__solver": "adam"
+    },
+    "scores": [
+      0.7558823529411764,
+      0.5875,
+      0.5940721649484536,
+      0.5915071770334928,
+      0.49226804123711343
+    ],
+    "mean": 0.6042459472320473,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        100,
+        50
+      ],
+      "classifier__learning_rate": "adaptive",
+      "classifier__solver": "sgd"
+    },
+    "scores": [
+      0.7390756302521009,
+      0.5175000000000001,
+      0.5876288659793815,
+      0.6590909090909092,
+      0.5975699558173785
+    ],
+    "mean": 0.620173072227954,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        100,
+        50
+      ],
+      "classifier__learning_rate": "adaptive",
+      "classifier__solver": "lbfgs"
+    },
+    "scores": [
+      0.47689075630252103,
+      0.605,
+      0.4948453608247423,
+      0.6106459330143541,
+      0.5254050073637703
+    ],
+    "mean": 0.5425574115010775,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        100,
+        100
+      ],
+      "classifier__learning_rate": "constant",
+      "classifier__solver": "adam"
+    },
+    "scores": [
+      0.6684873949579833,
+      0.5974999999999999,
+      0.4690721649484536,
+      0.6973684210526316,
+      0.5176730486008837
+    ],
+    "mean": 0.5900202059119903,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        100,
+        100
+      ],
+      "classifier__learning_rate": "constant",
+      "classifier__solver": "sgd"
+    },
+    "scores": [
+      0.9138655462184874,
+      0.5275000000000001,
+      0.49355670103092786,
+      0.6662679425837321,
+      0.659057437407953
+    ],
+    "mean": 0.6520495254482201,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        100,
+        100
+      ],
+      "classifier__learning_rate": "constant",
+      "classifier__solver": "lbfgs"
+    },
+    "scores": [
+      0.5705882352941176,
+      0.4875,
+      0.49742268041237114,
+      0.6082535885167464,
+      0.5176730486008837
+    ],
+    "mean": 0.5362875105648237,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        100,
+        100
+      ],
+      "classifier__learning_rate": "invscaling",
+      "classifier__solver": "adam"
+    },
+    "scores": [
+      0.6684873949579833,
+      0.5974999999999999,
+      0.4690721649484536,
+      0.6973684210526316,
+      0.5176730486008837
+    ],
+    "mean": 0.5900202059119903,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        100,
+        100
+      ],
+      "classifier__learning_rate": "invscaling",
+      "classifier__solver": "sgd"
+    },
+    "scores": [
+      0.76890756302521,
+      0.4625,
+      0.6894329896907216,
+      0.5897129186602871,
+      0.41678939617083943
+    ],
+    "mean": 0.5854685735094116,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        100,
+        100
+      ],
+      "classifier__learning_rate": "invscaling",
+      "classifier__solver": "lbfgs"
+    },
+    "scores": [
+      0.5705882352941176,
+      0.4875,
+      0.49742268041237114,
+      0.6082535885167464,
+      0.5176730486008837
+    ],
+    "mean": 0.5362875105648237,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        100,
+        100
+      ],
+      "classifier__learning_rate": "adaptive",
+      "classifier__solver": "adam"
+    },
+    "scores": [
+      0.6684873949579833,
+      0.5974999999999999,
+      0.4690721649484536,
+      0.6973684210526316,
+      0.5176730486008837
+    ],
+    "mean": 0.5900202059119903,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        100,
+        100
+      ],
+      "classifier__learning_rate": "adaptive",
+      "classifier__solver": "sgd"
+    },
+    "scores": [
+      0.9138655462184874,
+      0.5275000000000001,
+      0.5219072164948453,
+      0.6662679425837321,
+      0.659057437407953
+    ],
+    "mean": 0.6577196285410036,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        100,
+        100
+      ],
+      "classifier__learning_rate": "adaptive",
+      "classifier__solver": "lbfgs"
+    },
+    "scores": [
+      0.5705882352941176,
+      0.4875,
+      0.49742268041237114,
+      0.6082535885167464,
+      0.5176730486008837
+    ],
+    "mean": 0.5362875105648237,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        50,
+        50,
+        50
+      ],
+      "classifier__learning_rate": "constant",
+      "classifier__solver": "adam"
+    },
+    "scores": [
+      0.5852941176470589,
+      0.5974999999999999,
+      0.4742268041237113,
+      0.46172248803827753,
+      0.5254050073637703
+    ],
+    "mean": 0.5288296834345635,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        50,
+        50,
+        50
+      ],
+      "classifier__learning_rate": "constant",
+      "classifier__solver": "sgd"
+    },
+    "scores": [
+      0.5243697478991597,
+      0.3825,
+      0.4729381443298969,
+      0.6901913875598087,
+      0.47091310751104565
+    ],
+    "mean": 0.5081824774599821,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        50,
+        50,
+        50
+      ],
+      "classifier__learning_rate": "constant",
+      "classifier__solver": "lbfgs"
+    },
+    "scores": [
+      0.4831932773109244,
+      0.485,
+      0.49226804123711343,
+      0.6034688995215312,
+      0.5279823269513991
+    ],
+    "mean": 0.5183825090041936,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        50,
+        50,
+        50
+      ],
+      "classifier__learning_rate": "invscaling",
+      "classifier__solver": "adam"
+    },
+    "scores": [
+      0.5852941176470589,
+      0.5974999999999999,
+      0.4742268041237113,
+      0.46172248803827753,
+      0.5254050073637703
+    ],
+    "mean": 0.5288296834345635,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        50,
+        50,
+        50
+      ],
+      "classifier__learning_rate": "invscaling",
+      "classifier__solver": "sgd"
+    },
+    "scores": [
+      0.49789915966386555,
+      0.375,
+      0.5025773195876289,
+      0.5023923444976076,
+      0.4572901325478645
+    ],
+    "mean": 0.46703179125939337,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        50,
+        50,
+        50
+      ],
+      "classifier__learning_rate": "invscaling",
+      "classifier__solver": "lbfgs"
+    },
+    "scores": [
+      0.4831932773109244,
+      0.485,
+      0.49226804123711343,
+      0.6034688995215312,
+      0.5279823269513991
+    ],
+    "mean": 0.5183825090041936,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        50,
+        50,
+        50
+      ],
+      "classifier__learning_rate": "adaptive",
+      "classifier__solver": "adam"
+    },
+    "scores": [
+      0.5852941176470589,
+      0.5974999999999999,
+      0.4742268041237113,
+      0.46172248803827753,
+      0.5254050073637703
+    ],
+    "mean": 0.5288296834345635,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        50,
+        50,
+        50
+      ],
+      "classifier__learning_rate": "adaptive",
+      "classifier__solver": "sgd"
+    },
+    "scores": [
+      0.5243697478991597,
+      0.515,
+      0.509020618556701,
+      0.6901913875598087,
+      0.47091310751104565
+    ],
+    "mean": 0.541898972305343,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "relu",
+      "classifier__hidden_layer_sizes": [
+        50,
+        50,
+        50
+      ],
+      "classifier__learning_rate": "adaptive",
+      "classifier__solver": "lbfgs"
+    },
+    "scores": [
+      0.4831932773109244,
+      0.485,
+      0.49226804123711343,
+      0.6034688995215312,
+      0.5279823269513991
+    ],
+    "mean": 0.5183825090041936,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        50
+      ],
+      "classifier__learning_rate": "constant",
+      "classifier__solver": "adam"
+    },
+    "scores": [
+      0.834873949579832,
+      0.54,
+      0.529639175257732,
+      0.6782296650717703,
+      0.5990427098674521
+    ],
+    "mean": 0.6363570999553573,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        50
+      ],
+      "classifier__learning_rate": "constant",
+      "classifier__solver": "sgd"
+    },
+    "scores": [
+      0.8970588235294117,
+      0.5900000000000001,
+      0.49097938144329895,
+      0.6471291866028708,
+      0.6899852724594993
+    ],
+    "mean": 0.6630305328070161,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        50
+      ],
+      "classifier__learning_rate": "constant",
+      "classifier__solver": "lbfgs"
+    },
+    "scores": [
+      0.5789915966386555,
+      0.6074999999999999,
+      0.47164948453608246,
+      0.46411483253588515,
+      0.5533873343151694
+    ],
+    "mean": 0.5351286496051586,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        50
+      ],
+      "classifier__learning_rate": "invscaling",
+      "classifier__solver": "adam"
+    },
+    "scores": [
+      0.834873949579832,
+      0.54,
+      0.529639175257732,
+      0.6782296650717703,
+      0.5990427098674521
+    ],
+    "mean": 0.6363570999553573,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        50
+      ],
+      "classifier__learning_rate": "invscaling",
+      "classifier__solver": "sgd"
+    },
+    "scores": [
+      0.5899159663865546,
+      0.52,
+      0.5734536082474226,
+      0.48983253588516745,
+      0.41678939617083943
+    ],
+    "mean": 0.5179983013379968,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        50
+      ],
+      "classifier__learning_rate": "invscaling",
+      "classifier__solver": "lbfgs"
+    },
+    "scores": [
+      0.5789915966386555,
+      0.6074999999999999,
+      0.47164948453608246,
+      0.46411483253588515,
+      0.5533873343151694
+    ],
+    "mean": 0.5351286496051586,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        50
+      ],
+      "classifier__learning_rate": "adaptive",
+      "classifier__solver": "adam"
+    },
+    "scores": [
+      0.834873949579832,
+      0.54,
+      0.529639175257732,
+      0.6782296650717703,
+      0.5990427098674521
+    ],
+    "mean": 0.6363570999553573,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        50
+      ],
+      "classifier__learning_rate": "adaptive",
+      "classifier__solver": "sgd"
+    },
+    "scores": [
+      0.7970588235294118,
+      0.5900000000000001,
+      0.49097938144329895,
+      0.6495215311004785,
+      0.7054491899852725
+    ],
+    "mean": 0.6466017852116923,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        50
+      ],
+      "classifier__learning_rate": "adaptive",
+      "classifier__solver": "lbfgs"
+    },
+    "scores": [
+      0.5789915966386555,
+      0.6074999999999999,
+      0.47164948453608246,
+      0.46411483253588515,
+      0.5533873343151694
+    ],
+    "mean": 0.5351286496051586,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        100
+      ],
+      "classifier__learning_rate": "constant",
+      "classifier__solver": "adam"
+    },
+    "scores": [
+      0.8222689075630252,
+      0.5449999999999999,
+      0.5347938144329897,
+      0.6901913875598087,
+      0.7010309278350515
+    ],
+    "mean": 0.658657007478175,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        100
+      ],
+      "classifier__learning_rate": "constant",
+      "classifier__solver": "sgd"
+    },
+    "scores": [
+      0.8949579831932772,
+      0.4825,
+      0.5038659793814433,
+      0.6232057416267942,
+      0.7047128129602356
+    ],
+    "mean": 0.6418485034323501,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        100
+      ],
+      "classifier__learning_rate": "constant",
+      "classifier__solver": "lbfgs"
+    },
+    "scores": [
+      0.6873949579831933,
+      0.475,
+      0.6018041237113403,
+      0.5962918660287082,
+      0.4896907216494845
+    ],
+    "mean": 0.5700363338745452,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        100
+      ],
+      "classifier__learning_rate": "invscaling",
+      "classifier__solver": "adam"
+    },
+    "scores": [
+      0.8222689075630252,
+      0.5449999999999999,
+      0.5347938144329897,
+      0.6901913875598087,
+      0.7010309278350515
+    ],
+    "mean": 0.658657007478175,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        100
+      ],
+      "classifier__learning_rate": "invscaling",
+      "classifier__solver": "sgd"
+    },
+    "scores": [
+      0.7331932773109244,
+      0.4925,
+      0.595360824742268,
+      0.520933014354067,
+      0.501840942562592
+    ],
+    "mean": 0.5687656117939703,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        100
+      ],
+      "classifier__learning_rate": "invscaling",
+      "classifier__solver": "lbfgs"
+    },
+    "scores": [
+      0.6873949579831933,
+      0.475,
+      0.6018041237113403,
+      0.5962918660287082,
+      0.4896907216494845
+    ],
+    "mean": 0.5700363338745452,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        100
+      ],
+      "classifier__learning_rate": "adaptive",
+      "classifier__solver": "adam"
+    },
+    "scores": [
+      0.8222689075630252,
+      0.5449999999999999,
+      0.5347938144329897,
+      0.6901913875598087,
+      0.7010309278350515
+    ],
+    "mean": 0.658657007478175,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        100
+      ],
+      "classifier__learning_rate": "adaptive",
+      "classifier__solver": "sgd"
+    },
+    "scores": [
+      0.8949579831932772,
+      0.4825,
+      0.5038659793814433,
+      0.6232057416267942,
+      0.7047128129602356
+    ],
+    "mean": 0.6418485034323501,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        100
+      ],
+      "classifier__learning_rate": "adaptive",
+      "classifier__solver": "lbfgs"
+    },
+    "scores": [
+      0.6873949579831933,
+      0.475,
+      0.6018041237113403,
+      0.5962918660287082,
+      0.4896907216494845
+    ],
+    "mean": 0.5700363338745452,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        100,
+        50
+      ],
+      "classifier__learning_rate": "constant",
+      "classifier__solver": "adam"
+    },
+    "scores": [
+      0.8537815126050421,
+      0.5900000000000001,
+      0.5708762886597938,
+      0.7069377990430622,
+      0.561119293078056
+    ],
+    "mean": 0.6565429786771908,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        100,
+        50
+      ],
+      "classifier__learning_rate": "constant",
+      "classifier__solver": "sgd"
+    },
+    "scores": [
+      0.8865546218487395,
+      0.565,
+      0.49097938144329895,
+      0.6566985645933014,
+      0.696980854197349
+    ],
+    "mean": 0.6592426844165378,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        100,
+        50
+      ],
+      "classifier__learning_rate": "constant",
+      "classifier__solver": "lbfgs"
+    },
+    "scores": [
+      0.5684873949579832,
+      0.61,
+      0.4793814432989691,
+      0.5938995215311005,
+      0.5228276877761414
+    ],
+    "mean": 0.5549192095128388,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        100,
+        50
+      ],
+      "classifier__learning_rate": "invscaling",
+      "classifier__solver": "adam"
+    },
+    "scores": [
+      0.8537815126050421,
+      0.5900000000000001,
+      0.5708762886597938,
+      0.7069377990430622,
+      0.561119293078056
+    ],
+    "mean": 0.6565429786771908,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        100,
+        50
+      ],
+      "classifier__learning_rate": "invscaling",
+      "classifier__solver": "sgd"
+    },
+    "scores": [
+      0.7361344537815127,
+      0.505,
+      0.43556701030927836,
+      0.5616028708133971,
+      0.624079528718704
+    ],
+    "mean": 0.5724767727245784,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        100,
+        50
+      ],
+      "classifier__learning_rate": "invscaling",
+      "classifier__solver": "lbfgs"
+    },
+    "scores": [
+      0.5684873949579832,
+      0.61,
+      0.4793814432989691,
+      0.5938995215311005,
+      0.5228276877761414
+    ],
+    "mean": 0.5549192095128388,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        100,
+        50
+      ],
+      "classifier__learning_rate": "adaptive",
+      "classifier__solver": "adam"
+    },
+    "scores": [
+      0.8537815126050421,
+      0.5900000000000001,
+      0.5708762886597938,
+      0.7069377990430622,
+      0.561119293078056
+    ],
+    "mean": 0.6565429786771908,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        100,
+        50
+      ],
+      "classifier__learning_rate": "adaptive",
+      "classifier__solver": "sgd"
+    },
+    "scores": [
+      0.8865546218487395,
+      0.5875,
+      0.49097938144329895,
+      0.6566985645933014,
+      0.7179675994108984
+    ],
+    "mean": 0.6679400334592477,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        100,
+        50
+      ],
+      "classifier__learning_rate": "adaptive",
+      "classifier__solver": "lbfgs"
+    },
+    "scores": [
+      0.5684873949579832,
+      0.61,
+      0.4793814432989691,
+      0.5938995215311005,
+      0.5228276877761414
+    ],
+    "mean": 0.5549192095128388,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        100,
+        100
+      ],
+      "classifier__learning_rate": "constant",
+      "classifier__solver": "adam"
+    },
+    "scores": [
+      0.8285714285714285,
+      0.6025,
+      0.5476804123711341,
+      0.7069377990430622,
+      0.5813696612665684
+    ],
+    "mean": 0.6534118602504387,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        100,
+        100
+      ],
+      "classifier__learning_rate": "constant",
+      "classifier__solver": "sgd"
+    },
+    "scores": [
+      0.807563025210084,
+      0.4975,
+      0.5064432989690721,
+      0.611244019138756,
+      0.6719440353460973
+    ],
+    "mean": 0.618938875732802,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        100,
+        100
+      ],
+      "classifier__learning_rate": "constant",
+      "classifier__solver": "lbfgs"
+    },
+    "scores": [
+      0.5831932773109244,
+      0.4775,
+      0.48195876288659795,
+      0.6010765550239234,
+      0.5636966126656848
+    ],
+    "mean": 0.541485041577426,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        100,
+        100
+      ],
+      "classifier__learning_rate": "invscaling",
+      "classifier__solver": "adam"
+    },
+    "scores": [
+      0.8285714285714285,
+      0.6025,
+      0.5476804123711341,
+      0.7069377990430622,
+      0.5813696612665684
+    ],
+    "mean": 0.6534118602504387,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        100,
+        100
+      ],
+      "classifier__learning_rate": "invscaling",
+      "classifier__solver": "sgd"
+    },
+    "scores": [
+      0.7415966386554622,
+      0.725,
+      0.8041237113402062,
+      0.4820574162679426,
+      0.5813696612665685
+    ],
+    "mean": 0.6668294855060359,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        100,
+        100
+      ],
+      "classifier__learning_rate": "invscaling",
+      "classifier__solver": "lbfgs"
+    },
+    "scores": [
+      0.5831932773109244,
+      0.4775,
+      0.48195876288659795,
+      0.6010765550239234,
+      0.5636966126656848
+    ],
+    "mean": 0.541485041577426,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        100,
+        100
+      ],
+      "classifier__learning_rate": "adaptive",
+      "classifier__solver": "adam"
+    },
+    "scores": [
+      0.8285714285714285,
+      0.6025,
+      0.5476804123711341,
+      0.7069377990430622,
+      0.5813696612665684
+    ],
+    "mean": 0.6534118602504387,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        100,
+        100
+      ],
+      "classifier__learning_rate": "adaptive",
+      "classifier__solver": "sgd"
+    },
+    "scores": [
+      0.807563025210084,
+      0.5,
+      0.5193298969072164,
+      0.6519138755980861,
+      0.6719440353460973
+    ],
+    "mean": 0.6301501666122968,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        100,
+        100
+      ],
+      "classifier__learning_rate": "adaptive",
+      "classifier__solver": "lbfgs"
+    },
+    "scores": [
+      0.5831932773109244,
+      0.4775,
+      0.48195876288659795,
+      0.6010765550239234,
+      0.5636966126656848
+    ],
+    "mean": 0.541485041577426,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        50,
+        50,
+        50
+      ],
+      "classifier__learning_rate": "constant",
+      "classifier__solver": "adam"
+    },
+    "scores": [
+      0.5642857142857143,
+      0.7275,
+      0.4742268041237113,
+      0.6949760765550239,
+      0.5891016200294551
+    ],
+    "mean": 0.6100180429987809,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        50,
+        50,
+        50
+      ],
+      "classifier__learning_rate": "constant",
+      "classifier__solver": "sgd"
+    },
+    "scores": [
+      0.7865546218487396,
+      0.5175000000000001,
+      0.49355670103092786,
+      0.6734449760765551,
+      0.6365979381443299
+    ],
+    "mean": 0.6215308474201104,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        50,
+        50,
+        50
+      ],
+      "classifier__learning_rate": "constant",
+      "classifier__solver": "lbfgs"
+    },
+    "scores": [
+      0.47689075630252103,
+      0.6025,
+      0.48711340206185566,
+      0.6010765550239234,
+      0.5047864506627393
+    ],
+    "mean": 0.534473432810208,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        50,
+        50,
+        50
+      ],
+      "classifier__learning_rate": "invscaling",
+      "classifier__solver": "adam"
+    },
+    "scores": [
+      0.5642857142857143,
+      0.7275,
+      0.4742268041237113,
+      0.6949760765550239,
+      0.5891016200294551
+    ],
+    "mean": 0.6100180429987809,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        50,
+        50,
+        50
+      ],
+      "classifier__learning_rate": "invscaling",
+      "classifier__solver": "sgd"
+    },
+    "scores": [
+      0.47689075630252103,
+      0.515,
+      0.32345360824742264,
+      0.45574162679425834,
+      0.5401325478645066
+    ],
+    "mean": 0.46224370784174174,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        50,
+        50,
+        50
+      ],
+      "classifier__learning_rate": "invscaling",
+      "classifier__solver": "lbfgs"
+    },
+    "scores": [
+      0.47689075630252103,
+      0.6025,
+      0.48711340206185566,
+      0.6010765550239234,
+      0.5047864506627393
+    ],
+    "mean": 0.534473432810208,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        50,
+        50,
+        50
+      ],
+      "classifier__learning_rate": "adaptive",
+      "classifier__solver": "adam"
+    },
+    "scores": [
+      0.5642857142857143,
+      0.7275,
+      0.4742268041237113,
+      0.6949760765550239,
+      0.5891016200294551
+    ],
+    "mean": 0.6100180429987809,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        50,
+        50,
+        50
+      ],
+      "classifier__learning_rate": "adaptive",
+      "classifier__solver": "sgd"
+    },
+    "scores": [
+      0.7865546218487396,
+      0.53,
+      0.5193298969072164,
+      0.6734449760765551,
+      0.6365979381443299
+    ],
+    "mean": 0.6291854865953682,
+    "warnings": []
+  },
+  {
+    "params": {
+      "classifier__activation": "tanh",
+      "classifier__hidden_layer_sizes": [
+        50,
+        50,
+        50
+      ],
+      "classifier__learning_rate": "adaptive",
+      "classifier__solver": "lbfgs"
+    },
+    "scores": [
+      0.47689075630252103,
+      0.6025,
+      0.48711340206185566,
+      0.6010765550239234,
+      0.5047864506627393
+    ],
+    "mean": 0.534473432810208,
+    "warnings": []
+  }
+]

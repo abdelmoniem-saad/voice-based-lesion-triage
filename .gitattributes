@@ -1,0 +1,9 @@
+# Do not rewrite experiment source/data bytes: protocols record SHA-256 hashes.
+# This deliberately overrides core.autocrlf for this research snapshot.
+* -text
+*.png binary
+*.pdf binary
+*.pptx binary
+*.npy binary
+*.pkl binary
+*.pt binary

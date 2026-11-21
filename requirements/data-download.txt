@@ -1,0 +1,3 @@
+# Optional: only for historical SVD download/inspection utilities.
+-r experiments.txt
+sbvoicedb==0.7.0
